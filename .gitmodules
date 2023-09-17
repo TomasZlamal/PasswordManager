@@ -1,4 +1,4 @@
-[submodule "PasswordManager"]
-	path = PasswordManager
+[submodule "PasswordManager/dependencies"]
+	path = PasswordManager/dependencies
 	url = https://github.com/wxWidgets/wxWidgets
 	branch = master
