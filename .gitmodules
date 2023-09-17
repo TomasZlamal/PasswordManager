@@ -1,0 +1,4 @@
+[submodule ""]
+	path = Dependencies
+	url = https://github.com/wxWidgets/wxWidgets
+	branch = master
