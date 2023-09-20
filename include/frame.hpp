@@ -12,10 +12,10 @@ public:
   void refresh();
 private:
   appStatus state;
-  wxPanel* inputPanel;
-  wxPanel* homePanel;
+  wxPanel* currentPanel;
   wxString password;
   wxString currentText;
-  void OnButtonClicked(wxCommandEvent& evt);
+  void OnSubmit(wxCommandEvent& evt);
   void OnTextChanged(wxCommandEvent& evt);
+  void OnLoginButtonClicked(wxCommandEvent& evt);
 };
