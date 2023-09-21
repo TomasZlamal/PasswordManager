@@ -4,7 +4,7 @@ wxIMPLEMENT_APP(App);
 bool App::OnInit()
 {
 
-	MyFrame* frame = new MyFrame(wxT("Password manager"), hasPassword());
+	MyFrame* frame = new MyFrame(wxT("Password manager"));
 	frame->SetBackgroundColour(wxColour(*wxWHITE));
 	frame->Center();
 	frame->SetClientSize(700, 400);
@@ -13,9 +13,3 @@ bool App::OnInit()
 		
 	return true;
 }
-
-bool App::hasPassword()
-{
-	return true;
-}
-
